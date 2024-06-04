@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sticker-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.sticker {
+  text-align: center;
+}
+.sticker img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  color: red;
+}

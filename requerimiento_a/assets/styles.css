@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.red-border {
+  border: 2px solid red;
+}
+#image {
+  max-width: 80%;
+  max-height: 60%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+}
